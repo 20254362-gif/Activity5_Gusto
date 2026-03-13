@@ -1,0 +1,90 @@
+header {
+    background-color: rgb(238, 182, 122);
+    color: rgb(92, 107, 96);
+    padding: 0.8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid rgb(150, 61, 1);
+}
+header > img {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    gap: 20px;
+}
+ul {
+    display: flex;
+    gap: 150px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav {
+    font-family: system-ui, sans-serif;
+    color: darkgreen;
+    background-color: beige;
+}
+#button1:hover {
+    background-color: rgb(238, 182, 122);
+}
+#button1:active {
+    background-color: rgb(238, 182, 122);    
+}
+#button1 {
+    background-color: rgb(238, 182, 122);
+    font-size: 1.1rem;
+    font-family:'Times New Roman';
+}
+#button2:hover {
+    background-color: rgb(238, 182, 122);
+}
+#buton2:active {
+    background-color: rgb(238, 182, 122);
+}
+#button3:hover {
+    background-color: rgb(238, 182, 122);
+}
+#button3:active {
+    background-color: rgb(238, 182, 122);
+}
+#button4:hover {
+    background-color: rgb(238, 182, 122);
+}
+#button4:active {
+    background-color: rgb(238, 182, 122);
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(146, 123, 39, 0.443);
+    font-style: inherit;
+    justify-content: center;
+    align-items: center;
+}
+body > img {
+    border-radius: 50px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.8;
+    gap: 100;
+}
+body > button:active {
+    background-color: rgb(219, 126, 110);
+}
+body > button:active {
+    background-color: rgb(219, 126, 110);
+}
+body > button {
+    background-color: rgb(219, 126, 110);
+    margin-top: 100px;
+    margin-top: 300px;
+}
+footer {
+    border-bottom: 2px solid rgb(150, 61, 1);
+    margin-top: 200px;
+    background-color: rgb(238, 182, 122);
+}
+
