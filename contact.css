@@ -80,7 +80,7 @@ body > button:active {
 body > button {
     background-color: rgb(219, 126, 110);
     margin-top: 100px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 .caption {
     text-align: center;
@@ -101,6 +101,64 @@ body > button {
     gap: 200px;
     padding: none;
 }
+.contact-wrapper {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.contact-info { flex: 1; text-align: left; }
+
+.contact-info h3 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #cd9316;
+}
+
+.info-item { margin-bottom: 1rem; font-size: 0.9rem; color: #444; }
+.info-item strong { display: block; color: #111; text-transform: uppercase; font-size: 0.75rem; }
+
+.contact-form-container { flex: 1.5; display: flex; flex-direction: column; gap: 8px; }
+.form-group { display: flex; flex-direction: column; text-align: left; }
+.form-group label { font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin-bottom: 3px; }
+
+.form-group input, .form-group textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.8rem;
+}
+
+.form-group textarea { resize: none; height: 60px; }
+
+.submit-btn {
+    background: #9c6b10;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.submit-btn:hover { background: #be8c27; color: #7b5b3f; }
+
+.cta-btn {
+    background: #111;
+    color: #fff;
+    padding: 0.7rem 1.8rem;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
 footer {
     border-bottom: 2px solid rgb(150, 61, 1);
     margin-top: 50px;
